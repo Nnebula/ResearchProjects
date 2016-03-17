@@ -1,0 +1,13 @@
+ask Dave:
+
+1- in Phantom chain program: what is the bond length (1?) is it correct to call it bond length? how is it related to the kuhn length or persistence length? 
+
+2- by segment in phantom chain do you mean joints or the bond between the joints? I assume it is the joints
+
+3- how to get the number of segmetns and bond lengths for real polymers such as elastin,DNA or collagen?
+
+4- did you use metropolis algorithm in accepting new positions in terms of their bending energy be bigger than a random number? why?
+
+
+
+ 

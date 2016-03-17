@@ -1,0 +1,23 @@
+Questions about Self Avoiding Chain:
+
+1- segments mean the spacing betwwen particles? different naming from phantom chain routine
+
+2- what is the segment length here: you mentioend it's 1.1 times the hardcore diameter. and in the initialize considered 1.2 as the segment length. 
+
+3- how to choose the hard core diamater? (what value?)
+
+4- in teh revised version, the end points are not configured (in the initialize function)
+
+5- what number to choose for ds? displacement of each particle in each step? 
+
+6- a general question: how to choose values for constants in the code?
+
+7- in lookup function why do you define another rmax? is it the same as TMAX? shouldn't it be the minimum allowd amount? rather than the maximum tether length?
+8- for hardcore testing in position function why the minimum value is one? 
+
+9- why the spacings (minimum and maximum seperations) are not defiend as harmonic spring?
+
+10-
+ about the testing force part in position function: what is dw? work done by the last particle or work done on the last particle and why?
+
+
