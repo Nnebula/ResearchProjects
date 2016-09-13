@@ -1,0 +1,113 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3268,        103]
+NotebookOptionsPosition[      2853,         84]
+NotebookOutlinePosition[      3213,        100]
+CellTagsIndexPosition[      3170,         97]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"y", " ", "=", " ", 
+   RowBox[{
+    RowBox[{"d", "*", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"c", "*", "kon", "*", 
+        RowBox[{"Exp", "[", 
+         RowBox[{
+          RowBox[{"-", "gamma"}], "*", "v", "*", 
+          RowBox[{"d", "/", 
+           RowBox[{"(", 
+            RowBox[{"B", "*", "kT"}], ")"}]}]}], "]"}]}], "-", "koff"}], 
+      ")"}]}], "-", "v"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"params", " ", "=", " ", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"c", "\[Rule]", " ", "200"}], ",", " ", 
+      RowBox[{"B", "\[Rule]", " ", "150"}], ",", " ", 
+      RowBox[{"kT", "\[Rule]", " ", "4.11"}], ",", " ", 
+      RowBox[{"d", "\[Rule]", " ", "2.2"}], ",", " ", 
+      RowBox[{"kon", "\[Rule]", " ", "11.6"}], ",", " ", 
+      RowBox[{"koff", "\[Rule]", " ", "0.03"}], ",", " ", 
+      RowBox[{"v", " ", "\[Rule]", " ", "50"}]}], "}"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"y", "\[Equal]", "0"}], "/.", "params"}], " ", ",", " ", 
+   "gamma"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.547431148333304*^9, 3.54743124247296*^9}, {
+  3.54743138883494*^9, 3.547431431775549*^9}, {3.547431558746615*^9, 
+  3.547431583639928*^9}, {3.5474319792433434`*^9, 3.5474320440107307`*^9}, {
+  3.547432159459725*^9, 3.547432168633572*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Solve", "::", "ifun"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Inverse functions are being used by \
+\[NoBreak]\\!\\(Solve\\)\[NoBreak], so some solutions may not be found; use \
+Reduce for complete solution information. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/Solve/ifun\\\", ButtonNote -> \
+\\\"Solve::ifun\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{{3.547432012574768*^9, 3.5474320458665543`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"gamma", "\[Rule]", "25.917871235489585`"}], "}"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.547432012610525*^9, 3.5474320458700542`*^9}}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.547430979171476*^9, 3.547430985141674*^9}}]
+},
+WindowSize->{740, 575},
+WindowMargins->{{Automatic, 165}, {-333, Automatic}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (February 23, \
+2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 1404, 36, 73, "Input"],
+Cell[1986, 60, 557, 11, 41, "Message"],
+Cell[2546, 73, 196, 5, 27, "Output"]
+}, Open  ]],
+Cell[2757, 81, 92, 1, 27, InheritFromParent]
+}
+]
+*)
+
+(* End of internal cache information *)
+

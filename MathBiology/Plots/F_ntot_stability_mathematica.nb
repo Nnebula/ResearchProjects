@@ -1,0 +1,108 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3343,         98]
+NotebookOptionsPosition[      3013,         81]
+NotebookOutlinePosition[      3372,         97]
+CellTagsIndexPosition[      3329,         94]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"F", " ", "=", " ", 
+   RowBox[{"F0", "*", "ntot", "*", "N0"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"params", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"F0", "\[Rule]", " ", "2"}], " ", ",", " ", 
+     RowBox[{"N0", " ", "\[Rule]", " ", "0.5"}]}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Plot", " ", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"F", "/.", "params"}], " ", "}"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"ntot", ",", " ", "25", ",", " ", "75"}], "}"}], ",", " ", 
+   RowBox[{"AxesLabel", "\[Rule]", " ", 
+    RowBox[{"{", 
+     RowBox[{"\"\<ntot\>\"", ",", " ", "\"\<F\>\""}], "}"}]}]}], 
+  "]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.5474147848132544`*^9, 3.547414787618865*^9}, {
+  3.547414844994022*^9, 3.547414944980381*^9}, {3.5474150095225677`*^9, 
+  3.547415226415391*^9}, {3.547415266677971*^9, 3.5474152783086433`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}, 
+   {Hue[0.67, 0.6, 0.6], LineBox[CompressedData["
+1:eJxNxVtMUnEcAOCTlJdCmbk254pQN5WsTby0QhGOGKDijXKKo2kWkTazzWqZ
+l8wHHqLWyiQnChi21E0zwsVZSLY0V3lhDpcHh6sVlS43aVYipdVD/18P377w
+siqJ3AfDsOw//t6lpQdj2EHev8NdhsAlCqyNZW51+MGt5gSKiQZfnxZ9U+yG
+L/hWk1OpsPDMWKeuHl7knI3nemHiWdQV/bZk9KeH/qsrASnoWVUDX0zhoCWZ
+UstocCo69nzJ0fggLlqY5mp5S+OhHdYTCqYabnd7xk+H4GiDGs/gamCHWyul
+hqWhv+ICe7Eaztmsl7N38dGOOpoqRAP3Klhj9ZHpaJmwo7K8B+Y46d05UYfQ
+x10Sz0gfbDa0zyfuFaAl9lZH0iA84ZnnmZOF6Isz7OREAlZEZohxXIRWRle6
+hcP/zZjDbCkZ6Ncqb9TCc5jbx3rnxTPRq7wwo+4VfOuleGkkLwst82+xvJ+A
+K4gbd5sLxOhuhn4nxw6P1a1hp/Ky0bFZfj8j38DWKaaKPJKDVr9Yj2M44Y7q
+hYpSWS5auYNOiyBh8raPnB2Xh/Zba7xWWgUXthZxpx7BoayC++vfYXeXjOxN
+ykd/yR9S62rgDTKGHkzATTKimP8Djg41RFjZEvSH/jumwRr4KsvknLwEx5ls
+vp9r4VoiQBrWAG8fqf3V0ATjZIlApIK1lJhZRzucrkzftNIBL/of2xOog5OC
+2uq4nfB4KDW86x68tm+5vLIf1g9Qm5UPYEEC06IbgG8eKAuaNsIxfLtx/2N4
+cnR5LtcMnxMFbikn4OFsQaHmCXzSVtZossDUw5d7JoZg44xm+qMVLiwyezee
+wr8BumMbFw==
+     "]]}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesLabel->{
+    FormBox["\"ntot\"", TraditionalForm], 
+    FormBox["\"F\"", TraditionalForm]},
+  AxesOrigin->{24., 24.},
+  PlotRange->{{25, 75}, {25.000001020408163`, 74.99999897959184}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{
+    Scaled[0.02], 
+    Scaled[0.02]}]], "Output",
+ CellChangeTimes->{{3.547415118438376*^9, 3.54741518952382*^9}, 
+   3.547415228968515*^9, {3.547415268280014*^9, 3.547415278969466*^9}}]
+}, Open  ]]
+},
+WindowSize->{740, 581},
+WindowMargins->{{Automatic, 89}, {-181, Automatic}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (February 23, \
+2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 946, 23, 73, "Input"],
+Cell[1528, 47, 1469, 31, 246, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
